@@ -5,7 +5,8 @@ import sqlite3
 import datetime
 
 # إعدادات البوت
-TOKEN = "8303228347:AAF6SkL2uT-X8Sc3ffeR4DosVF2hM-oj_OI"
+import os
+TOKEN = os.getenv("8303228347:AAF6SkL2uT-X8Sc3ffeR4DosVF2hM-oj_OI")
 DB_NAME = "study_bot.db"
 
 # إعداد التسجيل
